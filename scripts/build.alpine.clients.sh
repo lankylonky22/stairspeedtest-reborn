@@ -47,7 +47,7 @@ mv trojan ../base/tools/clients/
 cd ..
 
 if [[ "$ARCH" = "x86_64" ]];then
-    curl -LO https://github.com/v2fly/v2ray-core/releases/latest/download/v2ray-linux-64.zip
+    curl -LO https://github.com/v2fly/v2ray-core/releases/download/v4.45.2/v2ray-linux-64.zip
     curl -LO https://github.com/joewalnes/websocketd/releases/download/v0.4.1/websocketd-0.4.1-linux_amd64.zip
     curl -LO https://github.com/shadowsocks/v2ray-plugin/releases/download/v1.3.1/v2ray-plugin-linux-amd64-v1.3.1.tar.gz
     else if [[ "$ARCH" = "x86" ]];then
